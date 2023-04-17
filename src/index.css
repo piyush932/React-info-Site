@@ -5,9 +5,58 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #282D35;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.header{
+  display: flex;
+  background-color: #21222A;
+  justify-content:space-between;
+  padding: 40px;
+}
+
+.header h3{
+  color:#DEEBF8
+}
+
+.header h2{
+  color:#00D8FF
+}
+
+.main{
+  color:#FFFFFF;
+  margin:0,auto;
+  padding: 40px;
+  background-image: url(./react-icon-large.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 75%;
+}
+
+li{
+  height: 2rem;
+}
+h1{
+  font-weight:bold;
+  font-size: 39px;  
+}
+
+.react-logo{
+  height: 3rem;
+  width: 3rem;
+  padding: 10px;
+}
+
+.header-sub{
+  display: flex;
+}
+
+.main--facts > li::marker {
+  font-size: 1.4rem;
+  color: #61DAFB;
 }
